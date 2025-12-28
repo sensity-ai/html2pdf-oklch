@@ -28,7 +28,6 @@
   },
   "homepage": "https://ekoopmans.github.io/html2pdf.js/",
   "dependencies": {
-    "html2canvas": "^1.0.0",
     "html2canvas-pro": "^1.6.2",
     "jspdf": "^3.0.0"
   },

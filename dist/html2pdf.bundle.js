@@ -48389,7 +48389,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-// import html2canvas from 'html2canvas';
 
 
 
@@ -48564,7 +48563,7 @@ Worker.prototype.toCanvas = function toCanvas() {
     // Handle old-fashioned 'onrendered' argument.
     var options = Object.assign({}, this.opt.html2canvas);
     delete options.onrendered;
-    return html2canvas_pro__WEBPACK_IMPORTED_MODULE_15__(this.prop.container, options);
+    return (0,html2canvas_pro__WEBPACK_IMPORTED_MODULE_15__["default"])(this.prop.container, options);
   }).then(function toCanvas_post(canvas) {
     // Handle old-fashioned 'onrendered' argument.
     var onRendered = this.opt.html2canvas.onrendered || function () {};

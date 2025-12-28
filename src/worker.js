@@ -1,6 +1,5 @@
 import { jsPDF } from 'jspdf';
-// import html2canvas from 'html2canvas';
-import * as html2canvas from 'html2canvas-pro';
+import html2canvas from 'html2canvas-pro';
 import { deepCloneBasic } from './snapdom/clone.js';
 import { objType, createElement, toPx } from './utils.js';
 
