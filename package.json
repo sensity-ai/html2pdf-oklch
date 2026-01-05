@@ -30,7 +30,7 @@
   "homepage": "https://sensity.ai",
   "dependencies": {
     "html2canvas-pro": "^1.6.2",
-    "jspdf": "^3.0.0"
+    "jspdf": "^4.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.14.8",
